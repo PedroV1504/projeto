@@ -1,4 +1,4 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Meu Primeiro Site </h1>
 
 <p align="center">
 Meu primeiro projeto no seguimento de sites, feito no curso da RocketSeat <br/>
