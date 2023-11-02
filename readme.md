@@ -19,7 +19,7 @@ Meu primeiro projeto no seguimento de sites, feito no curso da RocketSeat <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/Fundo_DA.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/FE_FC.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
