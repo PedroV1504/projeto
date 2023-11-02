@@ -1,111 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="" >
-<head>
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeviLinks</title>
-    <Link rel="stylesheet" href="style.css" />
-</head>
-<body> 
-<div id="conteiner">
-    <div id="profile">
-    
-         
-        <img 
-    src="./assets/avatar.png"
-    alt="Raio azul em fundo preto"
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
     />
-<p>@findduo</p>
-</div>
 
-<div id="switch" onclick="toggleMode()">
-<button>
-  </button>
-<span>
-</span>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeviLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="conteiner">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Raio azul em fundo preto" />
+        <p>@findduo</p>
+      </div>
 
-</div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
+      </div>
 
-<ul><!-- ul (lista desordenada) gera uma lista 
+      <ul>
+        <!-- ul (lista desordenada) gera uma lista 
     com pontos. 
     ol (lista ordenada) gera uma lista com numeros.
     -->
-    <li>
-        <!-- href (faz referência a um link, porém
+        <li>
+          <!-- href (faz referência a um link, porém
                    sai da página atual)
              target="_blank" (abre uma nova guia em
              referencia ao link inserido no href)          
         -->
+          <a href="https://github.com/PedroV1504" target="_blank">Portifolio</a>
+        </li>
+        <li>
+          <a href="https://github.com/PedroV1504/projeto" target="_blank"
+            >Meu Projeto Github</a
+          >
+        </li>
+        <li>
+          <a href="https://pedrov1504.github.io/projeto/" target="_blank"
+            >Site Projeto</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/PedroV1504" target="blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
         <a
-        href="https://www.riotgames.com/pt-br"
-        target="_blank"
-        >Riot Login</a>
-    </li>
-    <li>
-        <a 
-        href="https://statusinvest.com.br/"
-        target="_blank"
-        >StatusInvest</a>
-    </li>
-    <li>
-        <a 
-        href="https://store.steampowered.com/?l=portuguese"
-        target="_blank"
-        >Steam</a>
-    </li>
+          href="https://www.linkedin.com/in/pedro-ramos-engenharia-da-computacao/"
+          target="blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
 
-</ul>
-<div id="social-links" >
+        <a href="https://instagram.com/pedrovinicius_f._ramos/" target="blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
 
-    <a href="https://github.com/PedroV1504" target="blank"> 
-    <ion-icon name="logo-github"></ion-icon>
-    </a>
-    
-    <a href="https://www.linkedin.com/in/pedro-ramos-engenharia-da-computacao/" target="blank"> 
-    <ion-icon name="logo-linkedin"></ion-icon>
-    </a> 
+        <a href="https://twitter.com/pedrovframos" target="blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
 
-    <a href="https://instagram.com/pedrovinicius_f._ramos/" target="blank">
-    <ion-icon name="logo-instagram"></ion-icon>
-    </a>
-    
-    <a href="https://twitter.com/pedrovframos" target="blank">
-    <ion-icon name="logo-twitter"></ion-icon>
-    </a>
-    
-    
-    <a href="https://www.facebook.com/pedrovinicius.figueiredoramos" target="blank">     
-    <ion-icon name="logo-facebook"></ion-icon>
-    </a>
-    
-    <a href="https://www.youtube.com/channel/UCK7r72IDRUn3mYBoKHcSk8A" target="blank">    
-    <ion-icon name="logo-youtube"></ion-icon>
-    </a>
+        <a
+          href="https://www.facebook.com/pedrovinicius.figueiredoramos"
+          target="blank"
+        >
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
 
-</div>
+        <a
+          href="https://www.youtube.com/channel/UCK7r72IDRUn3mYBoKHcSk8A"
+          target="blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </div>
 
-<footer>
-    Feito com carinho por <a href="https://www.linkedin.com/in/pedro-ramos-engenharia-da-computacao/" target="blank"
-    >Pedro Ramos</a>
-</footer>
+      <footer>
+        Feito com carinho por
+        <a
+          href="https://www.linkedin.com/in/pedro-ramos-engenharia-da-computacao/"
+          target="blank"
+          >Pedro Ramos</a
+        >
+      </footer>
+    </div>
 
-</div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
 
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-<script 
-type="module" 
-src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-
-<script 
-nomodule 
-src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-<script src="./script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
